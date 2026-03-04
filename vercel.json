@@ -1,0 +1,20 @@
+{
+	"rewrites": [
+		{
+			"source": "/blog/:path*",
+			"destination": "https://blog-tan-sigma-87.vercel.app/:path*"
+		},
+		{
+			"source": "/blog",
+			"destination": "https://blog-tan-sigma-87.vercel.app/"
+		},
+		{
+			"source": "/row/:path*",
+			"destination": "https://dailyrow.vercel.app/row/:path*"
+		},
+		{
+			"source": "/row",
+			"destination": "https://dailyrow.vercel.app/row"
+		}
+	]
+}
