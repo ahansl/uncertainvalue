@@ -10,7 +10,7 @@
 		},
 		{
 			"source": "/row/:path*",
-			"destination": "https://dailyrow.vercel.app/row:path*"
+			"destination": "https://dailyrow.vercel.app/row/:path*"
 		},
 		{
 			"source": "/row",
