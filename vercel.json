@@ -9,6 +9,10 @@
 			"destination": "https://blog-tan-sigma-87.vercel.app/"
 		},
 		{
+			"source": "/_next/:path*",
+			"destination": "https://dailyrow.vercel.app/_next/:path*"
+		},
+		{
 			"source": "/row/:path*",
 			"destination": "https://dailyrow.vercel.app/:path*"
 		},
