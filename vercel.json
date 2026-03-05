@@ -1,24 +1,20 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/blog/:path*",
-      "destination": "https://blog-tan-sigma-87.vercel.app/:path*",
-      "permanent": false
+      "destination": "https://blog-tan-sigma-87.vercel.app/:path*"
     },
     {
       "source": "/blog",
-      "destination": "https://blog-tan-sigma-87.vercel.app/",
-      "permanent": false
+      "destination": "https://blog-tan-sigma-87.vercel.app/"
     },
     {
       "source": "/row/:path*",
-      "destination": "https://dailyrow.vercel.app/:path*",
-      "permanent": false
+      "destination": "https://dailyrow.vercel.app/:path*"
     },
     {
       "source": "/row",
-      "destination": "https://dailyrow.vercel.app/",
-      "permanent": false
+      "destination": "https://dailyrow.vercel.app/"
     }
   ]
 }
